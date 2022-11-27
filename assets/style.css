@@ -1,10 +1,7 @@
 *{
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
     font-family: sans-serif;
-
-
 }
 
 .container{
@@ -58,7 +55,7 @@ nav ul li a:hover{
 }
 
 .row{
-    display flex;
+    display flex; 
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
@@ -68,20 +65,33 @@ nav ul li a:hover{
     flex-basis: 40%;
     position: relative;
     margin-left: 50px;
- 
+  
 }
 
 .col-1 h2 {
-    font-size: 30px;
-    color:#f5f;
+    font-size: 20px;
+    color: black;
     font-weight: 100;
-    margin: 20px 0 10px;
 }
 
 .col-1 h3 {
     font-size: 54px;
+    color: #fc46aa;;
+    margin: 20px 0 10px;
+  
+}
+.col-1 p {
+    font-size: 54px;
+    color: #fc46aa;
+    font-weight: 100 ;
 }
 
-.col-1 h4 {
-    font-size: 54px;
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradiet(to right, #fb5283,#ff3527);
+
 }
