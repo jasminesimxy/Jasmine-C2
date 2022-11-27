@@ -56,3 +56,32 @@ nav ul li a{
 nav ul li a:hover{
     color: #f5f
 }
+
+.row{
+    display flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+ 
+}
+
+.col-1 h2 {
+    font-size: 30px;
+    color:#f5f;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+
+.col-1 h3 {
+    font-size: 54px;
+}
+
+.col-1 h4 {
+    font-size: 54px;
+}
