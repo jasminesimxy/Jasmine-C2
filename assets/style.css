@@ -2,7 +2,22 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: sans-serif;
+    font-family: maagkramp;
+}
+
+@font-face {
+    font-family: 'maagkramp';
+    src: url('https://files.all-free-download.com/fonts/maagkramp.ttf');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.mydiv{
+    font-family: 'maagkramp';
+    }
+
+body{
+    background-color: #e10098;
 }
 
 .main-header{
@@ -25,9 +40,8 @@
 nav{
     display:flex;
     flex:1;
-    justify-content: center;
-    background-color:#5271fe ;
-    
+    justify-content:right;
+    background-color: #e10098;
 }
 
 nav a{
@@ -35,8 +49,8 @@ nav a{
     display: inline-block;
     color:white;
     padding: 14px 20px;
-    margin-right: 30px;
-    text-align:center;
+    margin-right: 10px;
+    text-align:right;
 }
 
 nav a:hover{

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'maagkramp';
+    src: url('../font/maagkramp.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.mydiv{
+font-family: 'maagkramp';
+}
