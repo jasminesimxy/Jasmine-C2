@@ -2,19 +2,11 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: maagkramp;
+    margin:0;
+    padding:0;
+    font-family: maagkramp, Arial, Helvetica, sans-serif;
 }
 
-@font-face {
-    font-family: 'maagkramp';
-    src: url('https://files.all-free-download.com/fonts/maagkramp.ttf');
-    font-weight: normal;
-    font-style: normal;
-    }
-
-.mydiv{
-    font-family: 'maagkramp';
-    }
 
 body{
     background-color: #e10098;
@@ -55,4 +47,17 @@ nav a{
 
 nav a:hover{
     color:yellow
+}
+
+h1{
+
+}
+
+h2{
+color:white;
+
+}
+
+.hero-section{
+    
 }
