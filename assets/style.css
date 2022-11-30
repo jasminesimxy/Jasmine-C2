@@ -9,12 +9,11 @@
 
 
 body{
-    background-color: #e10098;
+    background-color: black;
 }
 
 .main-header{
-    max-width: 96px;
-    max-height: 150px;
+    max-height: 100px;
     margin-left: 30;
     margin-right: 40;
     display: flex;
@@ -32,9 +31,10 @@ body{
 
 nav{
     display:flex;
-    flex:1;
+    flex:auto;
+    align-content: flex-end;
     justify-content:right;
-    background-color: #e10098;
+    background-color: black;
 }
 
 nav a{
@@ -52,7 +52,7 @@ nav a:hover{
 /* About */
 
 .main-section{
-    background-color: #e10098;
+    background-color: black;
     padding: 60px 60px;
     color: white;
 }
@@ -63,7 +63,6 @@ nav a:hover{
     grid-template-rows: 820px;
 
 }
-
 
 .main-content{
     display: flex;
@@ -76,14 +75,14 @@ nav a:hover{
 .main-content h1{
     font-size: 90px;
     color: white;
-    -webkit-text-fill-color: yellow;
+    -webkit-text-fill-color: turquoise;
     -webkit-text-stroke-color: white;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
 }
 
 .main-content h2{
     color:white;
-    text-shadow:1px 1px yellow ;
+    text-shadow:1px 1px turquoise ;
     font-size:16px;
     font-weight: 10;
     line-height: 2;
@@ -128,4 +127,70 @@ nav a:hover{
     }
  }
     
- }
+ /* Work section*/
+
+
+.work {
+    background-color:black ;
+    color: white;
+    position: relative;
+}
+
+.work-container{
+    display: flex;
+    background: black;
+    padding-left: 10px ;
+
+}
+
+.work-grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+}
+
+.work-container h1{
+    font size: 50px;
+}
+
+ .work-content {
+    align-content: space-around;
+    border-width: 1px;
+    width: 10%;
+    
+   
+  }
+
+  .work-content img{
+    width: 300%;
+    padding-bottom: 10px;
+  }
+
+
+
+/* contact form */
+
+/* footer */
+
+
+footer {
+    background: black;
+    padding: 15px 0;
+    text-align: center;
+  }
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: white;
+  }
