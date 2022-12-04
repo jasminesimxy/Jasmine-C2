@@ -108,22 +108,6 @@ nav a:hover{
 
 /* Media screen for about me section*/
 
- @media screen and (max-width:1--px){
-    .main-section{
-        padding:30px;
-    }
-
-    .main-container{
-       grid-template-columns: 1fr;
-    }
-
-    .main-content h1{
-        font-size: 80px;
-        
-    }
-
- }
-
  @media screen and (max-width:768px){
     .main-container{ 
         flex-direction: column;
